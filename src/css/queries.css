@@ -1,0 +1,447 @@
+/* Big tablets to 1200px : width smaller than 1200px row */
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+
+  .row {
+    width: 100%;
+    padding: 0 4%;
+  }
+
+  /*--- SECTION-SCALE ---*/
+  .scale-row {
+    width: 75%;
+    margin: 0 12.5%;
+  }
+
+  /*--- SECTION-FEATURE ---*/
+  .feature-text-box {
+    padding: 60px 50px;
+  }
+
+  /*--- SECTION-STRENGTH ---*/
+  .strength-col {
+    padding: 0 40px;
+  }
+
+  /*--- SECTION-LESSONS ---*/
+  .lesson-box img {
+    width: 120px;
+    height: 100px;
+  }
+
+  .lesson-btn {
+    padding: 15px 20px;
+  }
+
+  /*--- SECTION-LEARN_ANYTIME ---*/
+  .double-phone {
+    width: 80%;
+    top: -200px;
+    left: 50px;
+  }
+
+  .section-learn-anytime h3 {
+    margin-bottom: 20px;
+  }
+
+  .second-part-col p {
+    margin-bottom: 40px;
+  }
+}
+
+/* Small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  html {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 80px 0;
+  }
+
+  /*--- HEADER ---*/
+  .intro-text-box {
+    top: 60px;
+  }
+
+  h1 {
+    font-size: 140%;
+    margin-bottom: 20px;
+  }
+
+  /*--- SECTION-SCALE ---*/
+  .scale-row {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  /*--- SECTION-FEATURE ---*/
+  .feature-text-box {
+    padding: 30px 50px;
+  }
+
+  /*--- SECTION-STRENGTH ---*/
+  .big-copy {
+    font-size: 2rem;
+    margin-top: 50px;
+    line-height: 150%;
+    letter-spacing: 1px;
+  }
+
+  .strength-col {
+    padding: 0 20px;
+  }
+
+  /*--- SECTION-LESSONS ---*/
+  .lesson-box {
+    width: 30.6666667%;
+    height: 270px;
+    margin-right: 4%;
+  }
+
+  .lesson-box:nth-of-type(3) {
+    margin-right: 0;
+  }
+
+  .lesson-box:last-child {
+    display: none;
+  }
+
+  /*--- SECTION-GETTING_ATARTED ---*/
+  .section-getting_started {
+    padding: 100px 0;
+  }
+
+  /*--- SECTION-LEARN_ANYTIME ---*/
+  .double-phone {
+    top: -150px;
+  }
+
+  /*--- FOOTER ---*/
+  .general-links {
+    padding: 0;
+  }
+
+  .general-links ul {
+    margin-right: 0;
+    width: 33.3%;
+  }
+
+  .general-links ul li:first-child {
+    font-size: 100%;
+  }
+
+  .general-links ul li a {
+    font-size: 80%;
+  }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+
+  .row {
+    padding: 0 6%;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  /*--- HEADER ---*/
+  .character-logo {
+    display: block;
+  }
+
+  .normal-logo {
+    display: none;
+  }
+
+  .intro-text-box {
+    top: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .intro-text-box h1 {
+    font-size: 180%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+  }
+
+  .intro-text-box p {
+    font-size: 110%;
+  }
+
+  .intro-text-box h1 br,
+  .intro-text-box p br {
+    display: none;
+  }
+
+  .wider-device {
+    display: none;
+  }
+
+  .small-device {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .btn {
+    font-size: 90%;
+    padding: 13px 30px;
+  }
+
+  /*--- SECTION-SCALE ---*/
+  .section-scale {
+    padding: 50px 0;
+  }
+
+  .scale-row {
+    width: 60%;
+    margin: 0 20%;
+    font-size: 150%;
+  }
+
+  .scale-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /*--- SECTION-FEATURE ---*/
+  .feature-row {
+    margin-top: 0;
+  }
+
+  .feature-col {
+    width: 100%;
+    float: left;
+  }
+
+  .feature-text-box {
+    padding: 0 30px;
+  }
+
+  .slide-number,
+  .feature-text-box h3 {
+    margin-bottom: 20px;
+  }
+
+  .feature-text-box h3 {
+    font-size: 150%;
+    letter-spacing: 1px;
+  }
+
+  .feature-text-box p {
+    font-size: 100%;
+    letter-spacing: 0;
+  }
+
+  /*--- SECTION-STRENGTH ---*/
+  .strength-col {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .big-copy {
+    margin-bottom: 20px;
+  }
+
+  .strength-col h3 {
+    margin-bottom: 10px;
+  }
+
+  /*--- SECTION-LESSONS ---*/
+  .section-lessons .row:nth-of-type(2) {
+    width: 50%;
+    margin: 0 25%;
+  }
+
+  .lesson-box {
+    width: 100%;
+  }
+
+  .section-lessons .row:nth-of-type(3),
+  .section-lessons .row:nth-of-type(4),
+  .section-lessons .row:nth-of-type(5) {
+    display: none;
+  }
+
+  .lesson-box img {
+    width: 130px;
+    height: auto;
+  }
+
+  .lesson-btn {
+    padding: 15px 10px;
+  }
+
+  /*--- SECTION-GETTING_STARTED ---*/
+  .section-getting_started {
+    padding: 70px 0;
+  }
+
+  /*--- SECTION-LEARN_ANYTIME ---*/
+  .second-part-col {
+    width: 100%;
+    text-align: center;
+  }
+
+  .second-part-col:last-child {
+    position: relative;
+    top: -50px;
+  }
+
+  .double-phone {
+    top: -60px;
+    left: 0;
+  }
+
+  /*--- FOOTER ---*/
+  footer {
+    text-align: center;
+  }
+
+  .left-links,
+  .general-links,
+  .general-links ul {
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 220px;
+  }
+
+  .left-links div:first-of-type {
+    font-size: 80%;
+    margin-left: 0;
+    word-spacing: 1px;
+  }
+
+  .sns-btn:link,
+  .sns-btn:visited {
+    font-size: 80%;
+    padding: 3px 8px;
+    margin: 20px 0 60px 8px;
+  }
+
+  .small-icon {
+    font-size: 130%;
+  }
+
+  .left-links div:last-of-type {
+    font-size: 100%;
+    margin-left: 0;
+  }
+
+  footer .btn-app {
+    position: relative;
+    left: 6px;
+    margin-bottom: 80px;
+  }
+
+  .general-links ul:nth-of-type(1) {
+    margin-bottom: 50px;
+  }
+
+  .general-links ul:nth-of-type(2) {
+    margin-bottom: 20px;
+  }
+
+  .general-links ul:nth-of-type(3) {
+    margin-bottom: 0;
+  }
+
+  .general-links ul li:first-child {
+    font-size: 130%;
+    margin-bottom: 20px;
+  }
+
+  .general-links ul li a {
+    font-size: 100%;
+  }
+
+  footer .row:last-child div {
+    font-size: 0.5rem;
+    margin: 0 0 0 6px;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  /*--- HEADER ---*/
+  .intro-text-box h1 {
+    font-size: 140%;
+  }
+
+  .intro-text-box p {
+    font-size: 90%;
+  }
+
+  /*--- SECTION-SCALE ---*/
+  .scale-row {
+    font-size: 120%;
+  }
+
+  /*--- SECTION-LESSONS ---*/
+  .section-lessons .row:nth-of-type(2) {
+    width: 70%;
+    margin: 0 15%;
+  }
+
+  .lesson-box {
+    height: 240px;
+  }
+
+  /*--- SECTION-STRENGTN ---*/
+  .big-copy {
+    font-size: 150%;
+    margin-top: 40px;
+    line-height: 120%;
+  }
+
+  /*--- SECTION-GETTING_STARTED ---*/
+  .section-getting_started {
+    padding: 40px 0;
+  }
+
+  /*--- FOOTER ---*/
+  footer .btn-app {
+    position: relative;
+    left: 0;
+    margin-bottom: 70px;
+  }
+
+  footer .btn-app img {
+    width: 130px;
+  }
+
+  .general-links ul li:first-child {
+    font-size: 150%;
+  }
+
+  .general-links ul li a {
+    font-size: 120%;
+  }
+
+  footer .row:last-child div {
+    font-size: 60%;
+  }
+}

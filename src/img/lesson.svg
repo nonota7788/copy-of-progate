@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="538 865 73.084 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6c9cbf;
+      }
+
+      .cls-1, .cls-17, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke: #2d346a;
+      }
+
+      .cls-1, .cls-17, .cls-3, .cls-4, .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-15, .cls-16, .cls-17, .cls-4, .cls-6, .cls-7 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-15, .cls-16, .cls-17, .cls-3, .cls-4, .cls-5, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #88e720;
+      }
+
+      .cls-14, .cls-15, .cls-16, .cls-17, .cls-3, .cls-7 {
+        fill: none;
+      }
+
+      .cls-3, .cls-5 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #79e8fd;
+      }
+
+      .cls-15, .cls-16, .cls-7 {
+        stroke-linecap: square;
+      }
+
+      .cls-8 {
+        fill: #e84e4e;
+      }
+
+      .cls-9 {
+        fill: #49d3ff;
+      }
+
+      .cls-10 {
+        fill: #65dd3e;
+      }
+
+      .cls-11 {
+        fill: #ff5a31;
+      }
+
+      .cls-12 {
+        fill: #ffcc01;
+      }
+
+      .cls-13 {
+        fill: #d8d8d8;
+      }
+
+      .cls-14, .cls-16 {
+        stroke: #d8d8d8;
+      }
+
+      .cls-15 {
+        stroke: #ffcc01;
+      }
+    </style>
+  </defs>
+  <g id="icn_browser" transform="translate(93.249 -241.985)">
+    <g id="About-Progate" transform="translate(445.751 1107.985)">
+      <g id="Online" transform="translate(0 0)">
+        <g id="icn_browser-2" data-name="icn_browser" transform="translate(0)">
+          <g id="PC" transform="translate(12.616 0)">
+            <g id="グループ化_1" data-name="グループ化 1" transform="translate(0 7.484)">
+              <path id="Stroke-4" class="cls-1" d="M24.567,56.743a3.459,3.459,0,0,1,2.922-1.9H39.614a3.459,3.459,0,0,1,2.922,1.9l2.071,4.665a1.249,1.249,0,0,1-1.227,1.9H23.723a1.246,1.246,0,0,1-1.227-1.9l2.071-4.665Z" transform="translate(-9.657 -23.019)"/>
+              <g id="Group-12" transform="translate(18.028 27.222)">
+                <path id="Clip-11" class="cls-2" d="M10.932,7.273l.927-4.409a1.979,1.979,0,0,0-2-2.475H2.723a1.979,1.979,0,0,0-2,2.475l.927,4.409A3.026,3.026,0,0,0,4.5,9.6H8.078a3.033,3.033,0,0,0,2.854-2.322Z" transform="translate(-0.668 -0.39)"/>
+              </g>
+              <path id="Stroke-16" class="cls-3" d="M41.728,53.987a2.663,2.663,0,0,1-2.492,2.027H35.66a2.657,2.657,0,0,1-2.492-2.027l-.927-4.409a1.609,1.609,0,0,1,1.64-2.027h7.133a1.609,1.609,0,0,1,1.64,2.027l-.927,4.409Z" transform="translate(-13.799 -19.958)"/>
+              <path id="Stroke-22" class="cls-4" d="M1.7,0H47.074a1.25,1.25,0,0,1,1.205,1.287v29.26a1.246,1.246,0,0,1-1.205,1.287H1.7A1.25,1.25,0,0,1,.491,30.547V1.287A1.246,1.246,0,0,1,1.7,0Z" transform="translate(-0.491)"/>
+              <path id="Stroke-22-2" data-name="Stroke-22" class="cls-5" d="M7.748,6.533H45.677a.987.987,0,0,1,1.007.963V29.372a.984.984,0,0,1-1.007.963H7.748a.987.987,0,0,1-1.007-.963V7.5A.984.984,0,0,1,7.748,6.533Z" transform="translate(-3.114 -2.742)"/>
+            </g>
+            <g id="browser" transform="translate(15.382 0)">
+              <rect id="Rectangle-31" class="cls-6" width="38.879" height="27.347" rx="2"/>
+              <path id="Line" class="cls-7" d="M1.305,10.6H38.417" transform="translate(-0.548 -4.509)"/>
+              <ellipse id="Oval-8" class="cls-8" cx="1.01" cy="1.013" rx="1.01" ry="1.013" transform="translate(2.02 2.1)"/>
+              <ellipse id="Oval-8-2" data-name="Oval-8" class="cls-9" cx="1.01" cy="1.013" rx="1.01" ry="1.013" transform="translate(5.049 2.1)"/>
+              <ellipse id="Oval-8-3" data-name="Oval-8" class="cls-10" cx="1.01" cy="1.013" rx="1.01" ry="1.013" transform="translate(8.079 2.1)"/>
+              <g id="code" transform="translate(4.062 10.454)">
+                <g id="code-snippet" transform="translate(0 0.58)">
+                  <rect id="Rectangle-32" class="cls-9" width="10.445" height="1.161" rx="0.58"/>
+                  <rect id="Rectangle-32-2" data-name="Rectangle-32" class="cls-11" width="16.248" height="1.161" rx="0.58" transform="translate(0 2.901)"/>
+                  <rect id="Rectangle-32-3" data-name="Rectangle-32" class="cls-9" width="16.248" height="1.161" rx="0.58" transform="translate(0 8.704)"/>
+                  <rect id="Rectangle-32-4" data-name="Rectangle-32" class="cls-12" width="6.383" height="1.161" rx="0.58" transform="translate(0 11.606)"/>
+                  <rect id="Rectangle-32-5" data-name="Rectangle-32" class="cls-10" width="4.642" height="1.161" rx="0.58" transform="translate(0 5.803)"/>
+                  <ellipse id="Oval-11" class="cls-13" cx="0.58" cy="0.58" rx="0.58" ry="0.58" transform="translate(12.186)"/>
+                  <ellipse id="Oval-12" class="cls-13" cx="0.58" cy="0.58" rx="0.58" ry="0.58" transform="translate(6.383 5.803)"/>
+                </g>
+                <g id="layout" transform="translate(19.73)">
+                  <rect id="Rectangle-36" class="cls-14" width="11.606" height="13.346" rx="1"/>
+                  <path id="Line-2" data-name="Line" class="cls-15" d="M5.04,4.667H10.8" transform="translate(-2.116 -1.959)"/>
+                  <path id="Line-3" data-name="Line" class="cls-16" d="M5.942,18.278H7.776" transform="translate(-2.494 -7.672)"/>
+                  <rect id="Rectangle-35" class="cls-9" width="2.616" height="1.741" rx="0.87" transform="translate(2.663 4.704)"/>
+                  <rect id="Rectangle-35-2" data-name="Rectangle-35" class="cls-11" width="6.279" height="1.161" rx="0.58" transform="translate(2.663 7.616)"/>
+                  <rect id="Rectangle-35-3" data-name="Rectangle-35" class="cls-10" width="2.616" height="1.741" rx="0.87" transform="translate(6.326 4.704)"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="lines" transform="translate(0 48)">
+            <path id="Stroke-7" class="cls-17" d="M2.54,0H0" transform="translate(-0.001)"/>
+            <path id="Stroke-8" class="cls-17" d="M120.665,0h-2.539" transform="translate(-49.58)"/>
+            <path id="Stroke-9" class="cls-17" d="M8.751,0H69.68" transform="translate(-3.673)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

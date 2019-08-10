@@ -1,0 +1,148 @@
+/*------------------------------*/
+/* BASIC SETUP */
+/*------------------------------*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+html {
+  font-size: 20px;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 300;
+  color: rgb(92, 92, 92);
+  text-rendering: optimizeLegibility;
+  background-color: #ccc;
+}
+
+/*------------------------------*/
+/* RESUSABLE COMPONENTS */
+/*------------------------------*/
+
+.row {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*------------------------------*/
+/* SGIN-IN-FORM */
+/*------------------------------*/
+.sign-in-form {
+  width: 30%;
+  margin: 100px 35% 0 35%;
+  background-color: #fff;
+  padding: 40px;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: 400;
+}
+
+.sign-in-form h1,
+.sign-in-form p {
+  margin-bottom: 20px;
+  word-spacing: 1px;
+}
+
+.sign-in-form h1 {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.sign-in-form p {
+  font-size: 0.6rem;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 25px;
+  opacity: 0.5;
+  border-radius: 3px;
+  border: 1px solid rgb(170, 170, 170);
+}
+
+input[type="submit"] {
+  background-color: rgb(216, 216, 216);
+  border: 1px solid transparent;
+  opacity: 0.2;
+  margin-bottom: 30px;
+}
+
+.sign-up-with-sns {
+  list-style: none;
+  width: 100%;
+}
+
+.sign-up-with-sns p {
+  position: relative;
+}
+
+.sign-up-with-sns p::before,
+.sign-up-with-sns p::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 1px;
+  background-color: rgb(170, 170, 170);
+  position: absolute;
+  top: 50%;
+}
+
+.sign-up-with-sns p::after {
+  right: 0;
+}
+
+.sign-up-with-sns li {
+  width: 30%;
+  margin-right: 5%;
+  float: left;
+  margin: 25px 5% 20px 0;
+}
+
+.sign-up-with-sns li:last-of-type {
+  margin-right: 0;
+}
+
+.small-icon {
+  color: #fff;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.icon-google {
+  background-color: #d3483a;
+}
+
+.icon-facebook {
+  background-color: #196090;
+}
+
+.icon-twitter {
+  background-color: #6eb5e5;
+}
+
+p:last-of-type {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.login-link {
+  text-decoration: none;
+  margin-left: 5px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/css/auth.css" />
+    <title>progate-auth</title>
+  </head>
+  <body>
+    <div class="row">
+      <form method="POST" action="#" class="sign-in-form">
+        <ion-icon name="close" class="close-btn"></ion-icon>
+        <h1>Create an account</h1>
+        <p>By signing up, you agree to our Terms and Privacy Policy.</p>
+        <input type="text" name="name" placeholder="Name" />
+        <input type="email" name="email" placeholder="Email" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="submit" value="Sign up" />
+        <ul class="sign-up-with-sns clearfix">
+          <p>or sign up with</p>
+          <li>
+            <a href="#">
+              <ion-icon
+                name="logo-google"
+                class="small-icon icon-google"
+              ></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon
+                name="logo-facebook"
+                class="small-icon icon-facebook"
+              ></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon
+                name="logo-twitter"
+                class="small-icon icon-twitter"
+              ></ion-icon>
+            </a>
+          </li>
+        </ul>
+        <p>
+          Already have an account?
+          <a href="#" class="login-link">Log in</a>
+        </p>
+      </form>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

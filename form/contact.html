@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/css/contact.css" />
+    <title>reproduction-contact-form</title>
+  </head>
+  <body>
+    <div class="row wrapper">
+      <div class="col span-3-of-5 box">
+        <p>
+          Thank you for using Progate. <br />
+          If you have any questions or comments, please use the form to contact
+          us.
+        </p>
+        <p>
+          Please also check the FAQs regarding our service and lessons on the
+          <a href="#">help page.</a>
+        </p>
+        <p>We’ll be replying to you via email.</p>
+        <img src="../src/img/contact-logo.svg" alt="progate-character" />
+      </div>
+      <div class="col span-2-of-5 box">
+        <form method="POST" action="#">
+          <input type="email" name="email" placeholder="Email" />
+          <select name="checking-for">
+            <option value="-Select-" selected>-Select-</option>
+            <option value="Lesson Content">Lesson Content</option>
+            <option value="Payment/Card">Payment/Card</option>
+            <option value="System Error">System Error</option>
+            <option value="Other">Other</option>
+          </select>
+          <textarea name="message" placeholder="Message"></textarea>
+          <button>
+            <ion-icon name="attach" class="small-icon"></ion-icon>
+            upload an image
+          </button>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

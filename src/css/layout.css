@@ -1,0 +1,34 @@
+/* LAYOUT */
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row::before,
+.row::after,
+.col::before,
+.col::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.span-1-of-3 {
+  width: 33.3%;
+}
+
+.span-2-of-3 {
+  width: 66.6666667%;
+}
+
+.span-2-of-5 {
+  width: 40%;
+}
+
+.span-3-of-5 {
+  width: 60%;
+}
