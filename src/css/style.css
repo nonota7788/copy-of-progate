@@ -207,6 +207,30 @@ nav {
   display: none;
 }
 
+/*--- STICKY-NAV ---*/
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(254, 254, 254, 0.952);
+  box-shadow: 0 2px 2px rgb(235, 235, 235);
+  z-index: 9999;
+}
+
+.sticky .ghost-btn:link,
+.sticky .ghost-btn:visited {
+  color: #fff;
+  background-color: #f5aa32;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.sticky .ghost-btn:hover,
+.sticky .ghost-btn:active {
+  background-color: #f39d12;
+}
+
 /*--------------------------------*/
 /* SCALE-SECTION */
 /*--------------------------------*/
