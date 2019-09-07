@@ -84,13 +84,15 @@ h2 {
 .ghost-btn {
   color: #f5aa32;
   border: 2px solid #f5aa32;
+  margin-bottom: 20px;
 }
 
 .none-btn {
   color: #202d3a;
 }
 
-.full-btn {
+.full-btn:link,
+.full-btn:visited {
   color: #fff;
   background-color: #f5aa32;
   letter-spacing: 0;
@@ -98,6 +100,13 @@ h2 {
   padding: 15px 20px;
   -webkit-box-shadow: 0 0 15px rgb(197, 193, 193);
   box-shadow: 0 0 15px rgb(197, 193, 193);
+  transition: background-color 0.3s, box-shodow 0.3s;
+}
+
+.full-btn:hover,
+.full-btn:active {
+  background-color: #f39d12;
+  box-shadow: 0 0 20px rgb(197, 193, 193);
 }
 
 .sns-btn:link,
@@ -159,12 +168,7 @@ h2 {
 /*--------------------------------*/
 header {
   height: 100vh;
-  position: relative;
   background-color: #f6f8f8;
-}
-
-nav {
-  margin-bottom: 70px;
 }
 
 .normal-logo {
@@ -194,13 +198,14 @@ nav {
 
 .intro-text-box {
   position: relative;
-  top: 110px;
+  top: 180px;
   padding-right: 20px;
 }
 
 .hero-img {
   width: 100%;
   height: auto;
+  margin-top: 70px;
 }
 
 .small-device {
@@ -209,6 +214,10 @@ nav {
 
 /*--- STICKY-NAV ---*/
 .sticky {
+  padding-top: 97px;
+}
+
+.sticky nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -216,13 +225,14 @@ nav {
   background-color: rgba(254, 254, 254, 0.952);
   box-shadow: 0 2px 2px rgb(235, 235, 235);
   z-index: 9999;
+  transition: background-color 0.3s, box-shodow 0.3s;
 }
 
 .sticky .ghost-btn:link,
 .sticky .ghost-btn:visited {
   color: #fff;
   background-color: #f5aa32;
-  margin-bottom: 20px;
+  border: 2px solid #f5aa32;
   transition: background-color 0.3s;
 }
 
